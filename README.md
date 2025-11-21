@@ -14,6 +14,17 @@ In this lab, you will use **GitHub Copilot** to:
 
 -----
 
+## Agenda
+
+1.  [**Part 1:** Explore the App](#part-1-explore-the-app)
+2.  [**Part 2:** Generative CI/CD](#part-2-generative-cicd)
+3.  [**Part 3:** Pipeline Updates](#part-3-pipeline-updates)
+4.  [**Part 4:** The "Fix It" Loop](#part-4-the-fix-it-loop)
+5.  [**Part 5:** Advanced - Security & Autofix](#part-5-advanced---security--autofix)
+6.  [**Part 6:** Extension - AI Engineering in CI/CD](#part-6-extension---ai-engineering-in-cicd)
+7.  [**Part 7:** The AI Teammate (Issues & PRs)](#part-7-the-ai-teammate-issues--prs)
+
+
 ## 🏗️ Architecture
 
 We are building a standard Python "Lint & Test" pipeline.
