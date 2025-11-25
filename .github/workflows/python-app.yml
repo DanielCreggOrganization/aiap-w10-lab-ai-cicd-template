@@ -31,3 +31,6 @@ jobs:
         run: |
           pip install pytest
           python -m pytest
+
+      - name: Print Flask version
+        run: pip freeze | grep '^Flask=='
