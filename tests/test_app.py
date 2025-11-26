@@ -6,3 +6,7 @@ def test_home_route():
     with app.test_client() as client:
         response = client.get('/')
         assert response.status_code == 200
+        
+#Test from the lab thats expected to fail
+def test_math_fail():
+    assert 1 + 1 == 3   
