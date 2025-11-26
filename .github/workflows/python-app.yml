@@ -26,6 +26,16 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install flake8 pytest
 
+      - name: Show Flask version
+        run: |
+          python - <<'PY'
+          try:
+              import flask
+              print(flask.__version__)
+          except Exception:
+              print('Flask not installed')
+          PY
+
       - name: Lint with flake8
         run: |
           python -m flake8 .
