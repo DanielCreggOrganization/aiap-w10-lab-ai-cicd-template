@@ -1,12 +1,13 @@
-import pytest
 from hello_app.webapp import app
+
 
 def test_home_route():
     """Test the home route returns 200 OK."""
     with app.test_client() as client:
         response = client.get('/')
         assert response.status_code == 200
-        
-#Test from the lab thats expected to fail
+
+
+# Test from the lab that's expected to fail
 def test_math_fail():
-    assert 1 + 1 == 3   
+    assert 1 + 1 == 3
