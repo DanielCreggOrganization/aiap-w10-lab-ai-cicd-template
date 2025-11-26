@@ -1,6 +1,15 @@
-# Entry point for the application.
-from . import app    # For application discovery by the 'flask' command. 
-from . import views  # For import side-effects of setting up routes. 
+"""Entry point for the application.
 
-# Time-saver: output a URL to the VS Code terminal so you can easily Ctrl+click to open a browser
+This module exposes `app` for tools like the `flask` command and imports
+`views` for their side-effects (route registration).
+"""
+
+# Keep these imports for application discovery and route registration.
+# They are intentionally unused in this module body.
+from . import app  # noqa: F401
+from . import views  # noqa: F401
+
+# Time-saver: uncomment to quickly open the example URL in a local terminal
 # print('http://127.0.0.1:5000/hello/VSCode')
+
+AWS_SECRET_KEY = "AKIA1234567890"
