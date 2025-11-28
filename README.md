@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21828359)
 # Lab: AI-Powered CI/CD with GitHub Actions
 
 ## 🚀 Introduction
@@ -297,10 +298,10 @@ Now, let's see if Copilot can critique *our* code.
 
 ## 📝 Summary Checklist
 
-  - [ ] Created a workflow using **Copilot Agent Mode**.
-  - [ ] Used `Copilot` to write a shell script step.
-  - [ ] Diagnosed a CI log error using Copilot Chat.
-  - [ ] Assigned a GitHub Issue to `@copilot` and merged the resulting PR.
-  - [ ] Received an automated Code Review from Copilot on a Pull Request.
+  - [✅] Created a workflow using **Copilot Agent Mode**.
+  - [✅] Used `Copilot` to write a shell script step.
+  - [✅] Diagnosed a CI log error using Copilot Chat.
+  - [✅] Assigned a GitHub Issue to `@copilot` and merged the resulting PR.
+  - [✅] Received an automated Code Review from Copilot on a Pull Request.
 
 -----
